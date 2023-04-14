@@ -198,9 +198,9 @@ class Crawler:
 
 if __name__ == "__main__":
     socket.setdefaulttimeout(25)
-    # 获取科技板块首页用户
+    # 获取推荐板块首页用户
     domain = 'https://36kr.com'
-    target = domain + '/information/technology'
+    target = domain + '/information/web_recommend/'
     num = 0
     try:
         crawler = Crawler(target)
